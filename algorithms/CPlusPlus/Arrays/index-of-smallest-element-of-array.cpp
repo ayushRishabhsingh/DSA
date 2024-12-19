@@ -12,9 +12,10 @@ using namespace std;
 int main()
 {
     int size,j;
-    cout<<"enter the size of array";
+    cout<<"enter the size of array ";
     cin>>size;
     int arr[size];
+    cout<<"enter the elements of array ";
     for(int i=0;i<size;i++)
     {
         cin>>arr[i];
@@ -31,5 +32,5 @@ int main()
             smallest_index=j;
         }
     }
-    cout<<"index of smallest element of array is"<<smallest_index;
+    cout<<"index of smallest element of array is "<<smallest_index;
 }
